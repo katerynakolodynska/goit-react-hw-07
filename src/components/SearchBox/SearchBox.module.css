@@ -1,0 +1,26 @@
+.text {
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 500;
+}
+
+.search {
+  margin-bottom: 30px;
+}
+
+.input {
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  width: 420px;
+}
+
+.input:hover,
+.input:focus-visible {
+  border-color: blue;
+  outline: none;
+}

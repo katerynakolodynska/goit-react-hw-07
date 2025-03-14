@@ -1,0 +1,33 @@
+.list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info {
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px;
+  font-weight: 500;
+  transition: background-color 250ms ease-in-out, border 250ms ease-in-out;
+  outline: none;
+  transition: background-color 250ms ease-in-out, border-color 250ms ease-in-out;
+  border-radius: 5px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #a2b4e3fd;
+  border-color: #a2b4e3fd;
+}
