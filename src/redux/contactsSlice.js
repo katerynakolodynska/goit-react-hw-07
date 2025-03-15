@@ -40,9 +40,7 @@ export const contactSlice = createSlice({
       .addCase(deleteContact.fulfilled, (state, action) => {
         state.isLoading = false;
         state.error = null;
-        state.items = state.items.filter(
-          (task) => task.id !== action.payload.id
-        );
+        state.items = state.items.filter((task) => task.id !== action.payload);
       })
       .addCase(deleteContact.rejected, handlerRejected);
   },
